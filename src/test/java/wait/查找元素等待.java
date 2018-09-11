@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 /**
  * Created by XULE on 2018/9/8.
  */
-public class Wait extends  seleniumdriver{
+public class 查找元素等待 extends  seleniumdriver{
     @Test
     public  void find(){
         seleniumdriver.open("chrome",driver);
