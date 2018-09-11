@@ -1,6 +1,5 @@
 package driverss;
 
-import demo.seleniumdriver;
 import org.testng.annotations.Test;
 
 /**
