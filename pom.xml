@@ -21,7 +21,31 @@
             <version>6.9.9</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
-
+    <build>
+    <plugins>
+    <plugin>
+        <!--编译插件-->
+        <groudpId>org.apache.maven.plugins</groudpId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+            <source>1.8</source>
+            <target>1.8</target>
+            <encoding>UFT-8</encoding>
+        </configuration>
+    </plugin>
+    <plugin>
+        <!--执行插件-->
+        <groudpId>org.apache.maven.plugins</groudpId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.19.1</version>
+        <configuration>
+            <suiteXmlFiles>
+                <suiteXmlFile>./temp-testng-customsuite.xml</suiteXmlFile>
+            </suiteXmlFiles>
+        </configuration>
+    </plugin>
+    </plugins>
+    </build>
 </project>
