@@ -1,6 +1,6 @@
 package driver.findelement;
 
-import demo.seleniumdriver;
+import driverss.seleniumdriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
