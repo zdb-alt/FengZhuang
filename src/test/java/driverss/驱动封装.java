@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class 驱动封装 extends seleniumdriver{
     @Test
     public  static  void open(){
-        seleniumdriver.open("firefox",driver);
+        seleniumdriver.open("firefox");
         seleniumdriver.quit();
     }
 }
