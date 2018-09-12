@@ -11,7 +11,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class seleniumdriver {
     public static WebDriver driver;
-    public static WebDriver open(String browser,WebDriver driver){
+    public static WebDriver open(String browser){
                String path= System.getProperty("user.dir");
             if(browser.equals("chrome")){
                 System.setProperty("webdriver.chrome.driver",path+"/drivers/chromedriver.exe");
