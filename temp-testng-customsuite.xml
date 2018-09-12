@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="FengZhuang">
+    <classes>
+      <class name="actionss.Actions集合">
+        <methods>
+          <include name="click"/>
+        </methods>
+      </class> <!-- actionss.Actions集合 -->
+    </classes>
+  </test> <!-- FengZhuang -->
+</suite> <!-- Default Suite -->
