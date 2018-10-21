@@ -1,0 +1,15 @@
+2018-10-21 19:15:28,475 INFO main [log4j.com.Log]info(line:39)这是info
+2018-10-21 19:15:28,481 ERROR main [log4j.com.Log]error(line:48)这是error
+2018-10-21 19:15:28,481 WARN main [log4j.com.Log]warn(line:45)这是警告
+2018-10-21 19:38:56,982 INFO main [driverss.seleniumdriver]info(line:39)网址为http://baidu.com
+2018-10-21 19:40:20,933 INFO main [driverss.seleniumdriver]info(line:39)你传入的浏览器有误chrome0
+2018-10-21 19:41:16,972 INFO main [driverss.seleniumdriver]info(line:39)你传入的浏览器有误chrome0
+2018-10-21 19:43:38,465 INFO main [log4j.com.Log]info(line:39)这是info
+2018-10-21 19:43:38,476 ERROR main [log4j.com.Log]error(line:48)这是error
+2018-10-21 19:43:38,477 WARN main [log4j.com.Log]warn(line:45)这是warn
+2018-10-21 19:46:08,612 INFO main [log4j.com.Log]info(line:39)这是info
+2018-10-21 19:46:08,635 ERROR main [log4j.com.Log]error(line:48)这是error
+2018-10-21 19:46:08,638 WARN main [log4j.com.Log]warn(line:45)这是warn
+2018-10-21 19:46:19,520 INFO main [log4j.com.Log]info(line:39)这是info
+2018-10-21 19:46:19,533 ERROR main [log4j.com.Log]error(line:48)这是error
+2018-10-21 19:46:19,533 WARN main [log4j.com.Log]warn(line:45)这是warn
