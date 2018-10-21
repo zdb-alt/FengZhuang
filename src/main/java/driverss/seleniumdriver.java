@@ -1,5 +1,6 @@
 package driverss;
 
+import log4j.com.Log4j;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -10,6 +11,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
  */
 
 public class seleniumdriver {
+    final  static Log4j log=Log4j.getLogg( seleniumdriver.class);
     public static WebDriver driver;
     public static WebDriver open(String browser){
                String path= System.getProperty("user.dir");
@@ -23,7 +25,8 @@ public class seleniumdriver {
               // System.setProperty("webdriver.firefox.driver",path+"/drivers/geckodriver.exe");
                 driver=new FirefoxDriver();
             }else {
-                System.out.print("你传入的浏览器有误" + browser);
+                //System.out.print("你传入的浏览器有误" + browser);
+                log.info("你传入的浏览器有误" + browser);
             }
         return null;
     }
