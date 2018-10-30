@@ -60,5 +60,10 @@ public class Actionss extends seleniumdriver{
         actions.doubleClick(element).perform();
 
     }
+    //全屏
+    public  static  void big(){
+        driver.manage().window().maximize();
+
+    }
 
 }

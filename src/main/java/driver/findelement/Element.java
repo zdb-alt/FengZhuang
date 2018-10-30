@@ -16,7 +16,7 @@ public class Element extends seleniumdriver {
     public static WebElement findelement(final By by){
         WebElement element=null;
         try{
-            WebDriverWait wait =new WebDriverWait(driver,10);
+            WebDriverWait wait =new WebDriverWait(driver,40);
             wait.until(ExpectedConditions.presenceOfElementLocated(by));
         }catch (Exception e){
             System.out.print("元素查找"+by+"超时！！");

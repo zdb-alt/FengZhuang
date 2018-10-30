@@ -13,3 +13,6 @@
 2018-10-21 19:46:19,520 INFO main [log4j.com.Log]info(line:39)这是info
 2018-10-21 19:46:19,533 ERROR main [log4j.com.Log]error(line:48)这是error
 2018-10-21 19:46:19,533 WARN main [log4j.com.Log]warn(line:45)这是warn
+2018-10-30 17:20:28,470 INFO main [log4j.com.Log]info(line:39)这是info
+2018-10-30 17:20:28,476 ERROR main [log4j.com.Log]error(line:48)这是error
+2018-10-30 17:20:28,477 WARN main [log4j.com.Log]warn(line:45)这是warn
